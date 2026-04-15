@@ -4,6 +4,7 @@ const readline = require("readline");
 const { install, SETTINGS_PATH } = require("../lib/install");
 const { uninstall } = require("../lib/uninstall");
 const { THEMES, NAMED_COLORS, getAllThemes, setTheme, getTheme, saveCustomTheme, primary, accent, success, highlight, bold, dim } = require("../lib/colors");
+const { BANNER_FULL } = require("../lib/theme");
 
 const pkg = require("../package.json");
 
@@ -220,6 +221,7 @@ function askChoice(rl, question, max) {
 }
 
 async function wizard() {
+  process.stdout.write(primary(BANNER_FULL));
   console.log(`
   ${accent("(*^_^*)")} ${bold("claude-chan setup wizard")}
   ${primary("─────────────────────────────────")}
