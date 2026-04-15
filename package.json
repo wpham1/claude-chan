@@ -1,0 +1,25 @@
+{
+  "name": "claude-chan",
+  "version": "1.0.0",
+  "description": "Weeb-ify your Claude Code with anime-themed spinner verbs, tips, and status line",
+  "bin": {
+    "claude-chan": "./bin/cli.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anime",
+    "weeb",
+    "otaku",
+    "theme",
+    "customization"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ]
+}
