@@ -2,6 +2,11 @@
   "name": "claude-chan",
   "version": "1.0.0",
   "description": "Weeb-ify your Claude Code with anime-themed spinner verbs, tips, and status line",
+  "homepage": "https://wpham1.github.io/claude-chan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpham1/claude-chan.git"
+  },
   "bin": {
     "claude-chan": "./bin/cli.js"
   },
